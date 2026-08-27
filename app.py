@@ -36,7 +36,7 @@ def load_data():
     """
 
     # Load the raw CSV file
-    df = pd.read_csv("data/Maths.csv")
+    df = pd.read_csv("data/maths.csv")
 
     # --- Result: categorical outcome based on G3 ---
     # G3 == 0  -> "Dropout" (special case, NOT a low score)
